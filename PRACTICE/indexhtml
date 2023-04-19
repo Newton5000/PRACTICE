@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <table>
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Product 1</td>
+            <td>$10</td>
+            <td>
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Product 2</td>
+            <td>$20</td>
+            <td>
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </td>
+          </tr>
+          <!-- more product rows... -->
+        </tbody>
+      </table>
+
+</script>
+
+
+</head>
+<body>
+   
+      
+      <!-- Edit Product Popup -->
+      <div class="edit-product-popup">
+        <h3>Edit Product</h3>
+        <label>Product Name</label>
+        <input type="text" class="product-name-input">
+        <label>Price</label>
+        <input type="text" class="price-input">
+        <button class="save-btn">Save</button>
+      </div>
+
+      <script src="script.js"></script>
+      
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="script.js"></script>
+      <script>
+        // The JavaScript code goes here
+      </script>
+
+</body>
+</html>
